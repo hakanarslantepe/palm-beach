@@ -2,26 +2,45 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: #f5f5dc;
 }
+.main-section-image {
+  background-image: url("/Hero.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 960px;
+  max-width: 1440px;
+}
+
+.about-section-image {
+  background-image: url("/Shootfix.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 704px;
+  max-width: 1440px;
+}
+
+.events-section-image {
+  background-image: url("/events-img.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 1164px;
+  max-width: 1440px;
+}
+
+.contact-section-image {
+  background-image: url("/contact-img.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 1049px;
+  max-width: 1440px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700;800;900&display=swap');
+
+
